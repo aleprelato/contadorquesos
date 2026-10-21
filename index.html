@@ -33,27 +33,27 @@
 
         /* Colores específicos solicitados */
         .btn-c {
-            background-color: #FEF08A; /* Amarillo claro */
+            background-color: #FEF08A; /* Cheddar - Amarillo claro */
             color: #422006;
             border-bottom: 5px solid #FACC15;
         }
         .btn-ce {
-            background-color: #CA8A04; /* Amarillo oscuro */
+            background-color: #CA8A04; /* Cheddar Extra - Amarillo oscuro */
             color: #FFFFFF;
             border-bottom: 5px solid #854D0E;
         }
         .btn-p {
-            background-color: #F5F2EB; /* Beige claro */
+            background-color: #F5F2EB; /* Provolone - Beige claro */
             color: #3E362E;
             border-bottom: 5px solid #D6CFC2;
         }
         .btn-pe {
-            background-color: #B59E7A; /* Beige oscuro */
+            background-color: #B59E7A; /* Provolone Extra - Beige oscuro */
             color: #1F1912;
             border-bottom: 5px solid #8A7350;
         }
         .btn-h {
-            /* Mezcla de amarillo y beige */
+            /* Huevito - Mezcla de amarillo y beige */
             background: linear-gradient(135deg, #FDE047 0%, #E6CCB2 50%, #B59E7A 100%);
             color: #292014;
             border-bottom: 5px solid #9C8253;
@@ -104,73 +104,73 @@
     <!-- Grilla Principal de Contadores y Botones (Sin Scroll, ocupa el alto restante) -->
     <main class="flex-1 grid grid-cols-2 grid-rows-3 gap-3 my-1 min-h-0">
         
-        <!-- 1. Botón C (Amarillo Claro) -->
+        <!-- 1. Botón Cheddar (Amarillo Claro) -->
         <div class="flex flex-col bg-zinc-900/90 border border-zinc-800 rounded-2xl p-2 shadow-lg min-h-0">
             <!-- Contador arriba del botón -->
             <div class="flex flex-col items-center justify-center py-1 shrink-0">
                 <span class="text-[10px] font-bold uppercase tracking-widest text-zinc-500">Contador</span>
                 <span id="count-C" class="text-3xl sm:text-4xl font-black text-yellow-200 leading-tight">0</span>
             </div>
-            <!-- Botón C -->
+            <!-- Botón Cheddar -->
             <button onclick="incrementCounter('C')" 
-                    class="counter-btn btn-c flex-1 w-full rounded-xl flex items-center justify-center shadow-md mt-1 min-h-0">
-                <span class="text-4xl sm:text-5xl font-black tracking-tight">C</span>
+                    class="counter-btn btn-c flex-1 w-full rounded-xl flex items-center justify-center shadow-md mt-1 min-h-0 px-1">
+                <span class="text-lg sm:text-xl font-black tracking-tight text-center">Cheddar</span>
             </button>
         </div>
 
-        <!-- 2. Botón CE (Amarillo Oscuro) -->
+        <!-- 2. Botón Cheddar Extra (Amarillo Oscuro) -->
         <div class="flex flex-col bg-zinc-900/90 border border-zinc-800 rounded-2xl p-2 shadow-lg min-h-0">
             <!-- Contador arriba del botón -->
             <div class="flex flex-col items-center justify-center py-1 shrink-0">
                 <span class="text-[10px] font-bold uppercase tracking-widest text-zinc-500">Contador</span>
                 <span id="count-CE" class="text-3xl sm:text-4xl font-black text-yellow-500 leading-tight">0</span>
             </div>
-            <!-- Botón CE -->
+            <!-- Botón Cheddar Extra -->
             <button onclick="incrementCounter('CE')" 
-                    class="counter-btn btn-ce flex-1 w-full rounded-xl flex items-center justify-center shadow-md mt-1 min-h-0">
-                <span class="text-4xl sm:text-5xl font-black tracking-tight">CE</span>
+                    class="counter-btn btn-ce flex-1 w-full rounded-xl flex items-center justify-center shadow-md mt-1 min-h-0 px-1">
+                <span class="text-base sm:text-lg font-black tracking-tight text-center leading-tight">Cheddar Extra</span>
             </button>
         </div>
 
-        <!-- 3. Botón P (Beige Claro) -->
+        <!-- 3. Botón Provolone (Beige Claro) -->
         <div class="flex flex-col bg-zinc-900/90 border border-zinc-800 rounded-2xl p-2 shadow-lg min-h-0">
             <!-- Contador arriba del botón -->
             <div class="flex flex-col items-center justify-center py-1 shrink-0">
                 <span class="text-[10px] font-bold uppercase tracking-widest text-zinc-500">Contador</span>
                 <span id="count-P" class="text-3xl sm:text-4xl font-black text-[#F5F2EB] leading-tight">0</span>
             </div>
-            <!-- Botón P -->
+            <!-- Botón Provolone -->
             <button onclick="incrementCounter('P')" 
-                    class="counter-btn btn-p flex-1 w-full rounded-xl flex items-center justify-center shadow-md mt-1 min-h-0">
-                <span class="text-4xl sm:text-5xl font-black tracking-tight">P</span>
+                    class="counter-btn btn-p flex-1 w-full rounded-xl flex items-center justify-center shadow-md mt-1 min-h-0 px-1">
+                <span class="text-lg sm:text-xl font-black tracking-tight text-center">Provolone</span>
             </button>
         </div>
 
-        <!-- 4. Botón PE (Beige Oscuro) -->
+        <!-- 4. Botón Provolone Extra (Beige Oscuro) -->
         <div class="flex flex-col bg-zinc-900/90 border border-zinc-800 rounded-2xl p-2 shadow-lg min-h-0">
             <!-- Contador arriba del botón -->
             <div class="flex flex-col items-center justify-center py-1 shrink-0">
                 <span class="text-[10px] font-bold uppercase tracking-widest text-zinc-500">Contador</span>
                 <span id="count-PE" class="text-3xl sm:text-4xl font-black text-[#D5C3AA] leading-tight">0</span>
             </div>
-            <!-- Botón PE -->
+            <!-- Botón Provolone Extra -->
             <button onclick="incrementCounter('PE')" 
-                    class="counter-btn btn-pe flex-1 w-full rounded-xl flex items-center justify-center shadow-md mt-1 min-h-0">
-                <span class="text-4xl sm:text-5xl font-black tracking-tight">PE</span>
+                    class="counter-btn btn-pe flex-1 w-full rounded-xl flex items-center justify-center shadow-md mt-1 min-h-0 px-1">
+                <span class="text-base sm:text-lg font-black tracking-tight text-center leading-tight">Provolone Extra</span>
             </button>
         </div>
 
-        <!-- 5. Botón H (Mezcla Amarillo y Beige - Ocupa el ancho inferior para fácil acceso) -->
+        <!-- 5. Botón Huevito (Mezcla Amarillo y Beige - Ocupa el ancho inferior) -->
         <div class="col-span-2 flex flex-col bg-zinc-900/90 border border-zinc-800 rounded-2xl p-2 shadow-lg min-h-0">
             <!-- Contador arriba del botón -->
             <div class="flex flex-col items-center justify-center py-0.5 shrink-0">
                 <span class="text-[10px] font-bold uppercase tracking-widest text-zinc-500">Contador</span>
                 <span id="count-H" class="text-3xl sm:text-4xl font-black text-amber-200 leading-tight">0</span>
             </div>
-            <!-- Botón H -->
+            <!-- Botón Huevito -->
             <button onclick="incrementCounter('H')" 
-                    class="counter-btn btn-h flex-1 w-full rounded-xl flex items-center justify-center shadow-md mt-1 min-h-0">
-                <span class="text-4xl sm:text-5xl font-black tracking-tight">H</span>
+                    class="counter-btn btn-h flex-1 w-full rounded-xl flex items-center justify-center shadow-md mt-1 min-h-0 px-1">
+                <span class="text-xl sm:text-2xl font-black tracking-tight text-center">Huevito</span>
             </button>
         </div>
 
